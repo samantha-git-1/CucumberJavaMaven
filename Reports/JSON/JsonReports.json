@@ -1,0 +1,15 @@
+[
+{"line":5,"elements":
+[{"start_timestamp":"2022-09-06T04:02:52.841Z",
+"line":7,"name":"Validate login is successful with valid credentials",
+"description":"",
+"id":"test-user-sign-on-functionalities;validate-login-is-successful-with-valid-credentials",
+"type":"scenario",
+"keyword":"Scenario",
+"steps":[
+{"result":{
+"duration":4916046600,
+"status":"passed"},
+"line":8,
+"name":"browser is open",
+"match":{"location":"com.co.project.app.StepDefinitions.A001_02_LoginFunctionality_Steps.browser_is_open()"},"keyword":"Given "},{"result":{"duration":8238633800,"status":"passed"},"line":9,"name":"user is on login page","match":{"location":"com.co.project.app.StepDefinitions.A001_02_LoginFunctionality_Steps.user_is_on_login_page()"},"keyword":"And "},{"result":{"duration":3239253200,"status":"passed"},"line":10,"name":"user enters Username and Password","match":{"location":"com.co.project.app.StepDefinitions.A001_02_LoginFunctionality_Steps.user_enters_username_and_password()"},"keyword":"When "},{"result":{"duration":157904700,"status":"passed"},"line":11,"name":"clicks on Login button","match":{"location":"com.co.project.app.StepDefinitions.A001_02_LoginFunctionality_Steps.clicks_on_login_button()"},"keyword":"And "},{"result":{"duration":6701105100,"status":"passed"},"line":12,"name":"user is navigated to the landing page","match":{"location":"com.co.project.app.StepDefinitions.A001_02_LoginFunctionality_Steps.user_is_navigated_to_the_landing_page()"},"keyword":"Then "}]}],"name":"Test user sign on functionalities","description":"","id":"test-user-sign-on-functionalities","keyword":"Feature","uri":"file:Features/A001_02_LoginFunctionality.feature","tags":[]}]
