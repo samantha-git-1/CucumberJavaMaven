@@ -23,7 +23,7 @@ public class BasePage {
 		this.driver = driver;
 		wait = new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT));
 		// Initialize WebElements via PageFactory (for Page classes, such as =>
-		// 'A001_CEOSignOnPage', and etc...)
+		// 'A001_LoginPage', and etc...)
 		PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
 	}
 

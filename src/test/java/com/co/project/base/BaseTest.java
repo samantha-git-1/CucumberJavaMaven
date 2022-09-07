@@ -7,7 +7,7 @@ public class BaseTest {
 	private WebDriver driver;
 	private String url;
 
-/*	
+/*
 	// Set browser & Initialize WebDriver object (for Test classes)
 	@Parameters({ "browser", "environment" })
 	@BeforeMethod
@@ -48,15 +48,9 @@ public class BaseTest {
 	// Set URL per requested environment
 	public String setUrl(String env) {
 		if (env.equalsIgnoreCase("SIT")) {
-			url = "https://wellsofficesit.ceo.wellsfargo.com";        	
+			url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";        	
 		} else if (env.equalsIgnoreCase("UAT")) {
-			url = "https://wellsofficeuat.ceo.wellsfargo.com";        	
-		} else if (env.equalsIgnoreCase("ProdFix")) {
-			url = "https://wellsofficefix.ceo.wellsfargo.com";        	
-		} else if (env.equalsIgnoreCase("Production")
-				|| env.equalsIgnoreCase("Production-Shoreview")
-				|| env.equalsIgnoreCase("Production-Tempe")) { // Shoreview & Tempe for TrafficVerification
-			url = "https://wellsoffice.ceo.wellsfargo.com";        	
+			url = "https:www.google.com";        	
 		} 
 		return url;
 	}
@@ -65,5 +59,12 @@ public class BaseTest {
 	public WebDriver getDriver() {
 		return driver;
 	}
+	
+
+	
+
+	
+	
+
 	
 } // Ends class 'BaseTest'

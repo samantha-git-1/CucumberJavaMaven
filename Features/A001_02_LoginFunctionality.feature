@@ -10,3 +10,6 @@ Feature: Test user sign on functionalities
     When user enters Username and Password
     And clicks on Login button
     Then user is navigated to the landing page
+    
+  Example 
+  

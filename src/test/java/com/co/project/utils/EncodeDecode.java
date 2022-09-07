@@ -25,8 +25,11 @@ public class EncodeDecode {
 	}
 
 	public static void main(String[] args) throws Exception {
-		System.out.println(EncodeDecode.encode("testpass#6"));
-		System.out.println(EncodeDecode.decode("dGVzdHBhc3MjMQ=="));
+		System.out.println(EncodeDecode.encode("test#1"));
+		System.out.println(EncodeDecode.decode(""));
+		System.out.println(EncodeDecode.decode(""));
+		System.out.println(EncodeDecode.decode(""));
+		System.out.println(EncodeDecode.decode(""));
 	}
 
 }
